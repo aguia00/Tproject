@@ -1,0 +1,6 @@
+C:\Users\Frederico Mendes.FredericoMendes\Documents\ThesisProject\ThesisProject\bin\ThesisProject.dll.config
+C:\Users\Frederico Mendes.FredericoMendes\Documents\ThesisProject\ThesisProject\bin\ThesisProject.dll
+C:\Users\Frederico Mendes.FredericoMendes\Documents\ThesisProject\ThesisProject\bin\ThesisProject.pdb
+C:\Users\Frederico Mendes.FredericoMendes\Documents\ThesisProject\ThesisProject\obj\Debug\ThesisProject.csprojResolveAssemblyReference.cache
+C:\Users\Frederico Mendes.FredericoMendes\Documents\ThesisProject\ThesisProject\obj\Debug\ThesisProject.dll
+C:\Users\Frederico Mendes.FredericoMendes\Documents\ThesisProject\ThesisProject\obj\Debug\ThesisProject.pdb
