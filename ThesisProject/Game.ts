@@ -1,7 +1,9 @@
-﻿class Greeter {
+﻿class Game {
     element: HTMLElement;
     span: HTMLElement;
     timerToken: number;
+    playerName: string;
+
 
     constructor(element: HTMLElement) {
         this.element = element;
@@ -23,6 +25,6 @@
 
 window.onload = () => {
     var el = document.getElementById('content');
-    var greeter = new Greeter(el);
+    var greeter = new Game(el);
     greeter.start();
 };
