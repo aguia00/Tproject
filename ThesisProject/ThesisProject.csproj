@@ -28,8 +28,10 @@
     <Content Include="web.config" />
   </ItemGroup>
   <ItemGroup>
+    <TypeScriptCompile Include="Card.ts" />
     <TypeScriptCompile Include="Game.ts" />
     <TypeScriptCompile Include="GoogleSearch.ts" />
+    <TypeScriptCompile Include="KeyGenerator.ts" />
   </ItemGroup>
   <ItemGroup>
     <None Include="web.Debug.config">
