@@ -8,12 +8,8 @@ var Card = (function () {
     *
     */
     // TODO : image variable .
-    function Card(id, idD, w, h) {
-        this.id = id;
-        this.doubleID = idD;
-        this.height = h;
-        this.weight = w;
-        this.status = true;
+    function Card() {
+        this.element = $("<div class='card'></div>")[0];
     }
     Card.prototype.resize = function (w, h) {
         this.weight = w;

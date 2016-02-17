@@ -15,12 +15,8 @@
     */
     // TODO : image variable .
 
-    constructor(id: number, idD: number, w: number, h: number) {
-        this.id = id;
-        this.doubleID = idD;
-        this.height = h;
-        this.weight = w;
-        this.status = true;
+    constructor() {
+        this.element = $("<div class='card'></div>")[0];
     }
 
     private resize(w: number, h: number) {

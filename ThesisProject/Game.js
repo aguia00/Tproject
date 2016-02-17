@@ -1,9 +1,8 @@
+///<reference path='../ThesisProject/Card.ts'/>
 var Game = (function () {
-    function Game(element, player) {
-        this.element = element;
+    function Game() {
         this.cards = new Array();
         this.scoreBoard = 0;
-        this.playerName = player;
         //this.idGenerator = new KeyGenerator();
         this.DrawCards();
     }
@@ -21,6 +20,7 @@ var Game = (function () {
     };
     Game.prototype.DrawCards = function () {
         //TO DO :
+        document.getElementById("gameBoard").appendChild($("<div class='card'></div>")[0]);
     };
     //This method will reset the board and game
     Game.prototype.ClearBoard = function () {
@@ -32,8 +32,5 @@ var Game = (function () {
     };
     return Game;
 })();
-window.onload = function () {
-    var el = document.getElementById('content');
-    var greeter = new Game(el, "Ola");
-};
+$(new Function("var game = new Game();"));
 //# sourceMappingURL=Game.js.map

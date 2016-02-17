@@ -1,15 +1,15 @@
-﻿class Game {
+﻿///<reference path='../ThesisProject/Card.ts'/>
+
+class Game {
     element: HTMLElement;
     playerName: string;
     cards: Card[];
     idGenerator: KeyGenerator;
     scoreBoard: number;
 
-    constructor(element: HTMLElement, player: string) {
-        this.element = element;
+    constructor() {
         this.cards = new Array<Card>();
         this.scoreBoard = 0;
-        this.playerName = player;
         //this.idGenerator = new KeyGenerator();
         this.DrawCards();
     }
@@ -30,6 +30,7 @@
 
     private DrawCards() {
         //TO DO :
+        document.getElementById("gameBoard").appendChild($("<div class='card'></div>")[0]);
     }
 
     //This method will reset the board and game
@@ -42,7 +43,5 @@
     }
 }
 
-window.onload = () => {
-    var el = document.getElementById('content');
-    var greeter = new Game(el, "Ola");
-};
+declare var $;
+$(new Function("var game = new Game();"));
